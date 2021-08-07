@@ -7,6 +7,7 @@
 //
 
 #import "SXViewController.h"
+#import <SXPublicKit/SXView.h>
 
 @interface SXViewController ()
 
@@ -17,7 +18,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    SXView *view = [[SXView alloc] init];
+    view.frame = CGRectMake(100, 100, 100, 100);
+    [self.view addSubview:view];
 }
 
 - (void)didReceiveMemoryWarning

@@ -1,0 +1,16 @@
+PODS:
+  - SXPublicKit (0.1.0)
+
+DEPENDENCIES:
+  - SXPublicKit (from `../`)
+
+EXTERNAL SOURCES:
+  SXPublicKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SXPublicKit: edb1cbec7fbc23882f3a0b192b9b70bc5d73cab8
+
+PODFILE CHECKSUM: c924cf3452d512048d6dcaae77301162587d818b
+
+COCOAPODS: 1.10.1
